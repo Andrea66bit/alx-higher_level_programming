@@ -7,8 +7,7 @@
 
 
 /**
-
- * struct listint_s - singly linked list
+* struct listint_s - singly linked list
 
  * @n: integer
 
@@ -26,9 +25,9 @@ typedef struct listint_s
 
 {
 
-        int n;
+int n;
 
-        struct listint_s *next;
+struct listint_s *next;
 
 } listint_t;
 
@@ -42,5 +41,4 @@ void free_listint(listint_t *head);
 int check_cycle(listint_t *list);
 
 
-#endif /* LISTS_H */                                       
-                   vv    v   :                :   
+#endif /* LISTS_H */
