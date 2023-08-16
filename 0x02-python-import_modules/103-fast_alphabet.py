@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 
-import string
+from string import ascii_uppercase
 
-print(string.ascii_uppercase)
+print(ascii_uppercase)

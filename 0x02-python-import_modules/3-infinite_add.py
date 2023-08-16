@@ -1,17 +1,13 @@
 #!/usr/bin/python3
 
-
 if __name__ == "__main__":
 
-    """Print the addition of all arguments."""
+    import sys, math
 
-    import sys
+    result = 0
 
+    for i in sys.argv:
 
-    total = 0
+        result += int(i)
 
-    for i in range(len(sys.argv) - 1):
-
-        total += int(sys.argv[i + 1])
-
-    print("{}".format(total))
+        print("{}".format(result))
