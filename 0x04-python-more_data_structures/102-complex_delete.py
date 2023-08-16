@@ -1,27 +1,15 @@
 #!/usr/bin/python3
 
-def roman_to_int(roman_string: str):
+def complex_delete(a_dictionary, value):
 
-    if roman_string is None or type(roman_string) != str:
-
-        return 0
-
-    data = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
-
-    numbers = [data[x] for x in roman_string] + [0]
-
-    rep = 0
+    list_keys = list(a_dictionary.keys())
 
 
-    for i in range(len(numbers) - 1):
+    for value_dic in list_keys:
 
-        if numbers[i] >= numbers[i+1]:
+        if value == a_dictionary.get(value_dic):
 
-            rep += numbers[i]
-
-        else:
-
-            rep -= numbers[i]
+            del a_dictionary[value_dic]
 
 
-    return rep
+    return (a_dictionary)
