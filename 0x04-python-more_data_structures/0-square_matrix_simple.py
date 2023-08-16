@@ -2,12 +2,8 @@
 
 def square_matrix_simple(matrix=[]):
 
-    squared = []
+    new_matrix = [[x ** 2 for x in row] for row in matrix]
 
-    for line in matrix:
-
-        squared.append([c**2 for c in line])
-
-    return squared
+    return new_matrix
 
 
