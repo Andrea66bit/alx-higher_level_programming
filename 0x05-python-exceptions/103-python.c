@@ -1,3 +1,5 @@
+#include <python.h>
+
 /*
 
  * File: 103-python.c
