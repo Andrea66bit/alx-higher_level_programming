@@ -10,14 +10,10 @@ def safe_print_integer_err(value):
 
         print("{:d}".format(value))
 
-    except (ValueError, TypeError) as err:
+        return (True)
 
-        print("Exception: {}".format(err), file=sys.stderr)
+    except (TypeError, ValueError):
 
-        return False
+        print("Exception: {}".format(sys.exc_info()[1]), file=sys.stderr)
 
-    else:
-
-        return True
-
-
+        return (False)

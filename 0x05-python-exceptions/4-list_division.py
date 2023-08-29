@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 
+
+
 def list_division(my_list_1, my_list_2, list_length):
 
-    n_list = []
+    new_list = []
 
-    for i in range(list_length):
+    for i in range(0, list_length):
 
         try:
 
@@ -30,6 +32,8 @@ def list_division(my_list_1, my_list_2, list_length):
 
         finally:
 
-            n_list.append(div)
+            new_list.append(div)
 
-    return n_list
+    return (new_list)
+
+
