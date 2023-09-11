@@ -9,3 +9,8 @@ def print_reversed_list_integer(my_list=[]):
     for i in reversed(my_list):
 
         print('{:d}'.format(i))
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> bf9e2de82e4cec68ecf4aea6d965e0ec4f0dabc9
