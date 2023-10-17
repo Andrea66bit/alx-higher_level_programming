@@ -1,8 +1,20 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> bf9e2de82e4cec68ecf4aea6d965e0ec4f0dabc9
 #!/usr/bin/python3
 
 def square_matrix_simple(matrix=[]):
 
+<<<<<<< HEAD
+    squared = []
+
+    for line in matrix:
+
+        squared.append([c**2 for c in line])
+
+    return squared
+=======
     new_matrix = matrix.copy()
 
 
@@ -12,3 +24,4 @@ def square_matrix_simple(matrix=[]):
 
 
     return (new_matrix)
+>>>>>>> bf9e2de82e4cec68ecf4aea6d965e0ec4f0dabc9

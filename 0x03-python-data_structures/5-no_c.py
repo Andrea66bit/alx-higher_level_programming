@@ -11,5 +11,8 @@ def no_c(my_string):
             new_str += i
 
     return (new_str)
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> bf9e2de82e4cec68ecf4aea6d965e0ec4f0dabc9

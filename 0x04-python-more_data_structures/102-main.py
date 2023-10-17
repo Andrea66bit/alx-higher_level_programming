@@ -15,4 +15,7 @@ new_dict = complex_delete(a_dictionary, 'c_is_fun')
 print_sorted_dictionary(a_dictionary)
 print("--")
 print_sorted_dictionary(new_dict)
+<<<<<<< HEAD
+=======
 
+>>>>>>> bf9e2de82e4cec68ecf4aea6d965e0ec4f0dabc9

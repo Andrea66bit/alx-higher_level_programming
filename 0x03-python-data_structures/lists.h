@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+#ifndef LISTS_H
+
+=======
+>>>>>>> bf9e2de82e4cec68ecf4aea6d965e0ec4f0dabc9
 #define LISTS_H
 
 
@@ -42,5 +47,10 @@ void free_listint(listint_t *head);
 
 int is_palindrome(listint_t **head);
 
+<<<<<<< HEAD
+
+#endif
+=======
                                         
 
+>>>>>>> bf9e2de82e4cec68ecf4aea6d965e0ec4f0dabc9
